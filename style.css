@@ -1,0 +1,67 @@
+*{
+  margin: 0px;
+  /*box-sizing: border-box;*/
+}
+
+html, body{
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin-bottom: 20px;
+}
+
+header{
+  text-align: center;
+  margin-top: 60px;
+}
+
+nav{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: right;
+}
+
+nav ul li{
+  list-style: none;
+  margin-right: 20px;
+  line-height: 50px;
+  display: inline;
+}
+
+nav a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.sect{
+  height: 100%;
+  /*background-color: aqua;*/
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subSection{
+  height: 50%;
+  background-color: bisque;
+}
+
+.sectOne{
+  background-image: url("./images/joker.jpg");
+    height: 100vh;
+}
+
+.sectTwo{
+  background-image: url("./images/designer-setup.jpg");
+  height: 100vh;
+}
+
+.sectThree{
+  background-image: url("./images/web-designer.jpg");
+  height: 100vh;
+}
